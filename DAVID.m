@@ -1,3 +1,6 @@
+% This makes an iamge that says "DAVID". I made each letter as a pixelated image of size 5x3, and displayed each letter.
+% See the "DAVID.png" file to see the output.
+
 % ----------- D ----------------------
 letter_D = zeros(5, 3);
 
