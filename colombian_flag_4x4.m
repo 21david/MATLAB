@@ -1,3 +1,6 @@
+% This makes a small 4x4 pixel Colombian flag. Two rows are yellow, one row is red, and one row is blue.
+% (Yellow = red + green)
+
 Y = [255 255 0];
 B = [0 0 255];
 R = [255 0 0];
@@ -29,4 +32,4 @@ for c = 1 : 4
 end
 
 imshow(colombia_flag);
-imwrite(colombia_flag, 'C:\Users\David\Downloads\Digital Image Processing\Matlab files\My files\colombia flag 4x4.bmp');
+% write(colombia_flag, 'C:\Users\David\Downloads\Digital Image Processing\Matlab files\My files\colombia flag 4x4.bmp');
